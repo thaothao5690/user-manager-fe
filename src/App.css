@@ -28,6 +28,25 @@
   color: #61dafb;
 }
 
+.login-form {
+  max-width: 300px;
+}
+.login-form-remember{
+  float: left;
+  margin-bottom: 0;
+}
+.login-form-forgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
