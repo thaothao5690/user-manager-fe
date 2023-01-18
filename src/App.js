@@ -1,11 +1,12 @@
 import React from "react"
-import Content from "./Content"
+import Login from "./Login"
 import './App.css'
+import Content from "./Content"
 
 function App() {
     return (
         <div className="App">
-            <Content />
+            <Login />
         </div>
     )
 }
